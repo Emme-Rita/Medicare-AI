@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.routes import health, analysis, research
 
+
 app = FastAPI(
     title="MediCare AI Backend",
     description="Medical AI Assistant API for Cameroon - Powered by LangChain",
