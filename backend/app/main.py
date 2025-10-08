@@ -34,3 +34,5 @@ async def root():
         "docs": "/docs",
         "status": "running"
     }
+
+print("CORS origins:", settings.cors_origins_list)
